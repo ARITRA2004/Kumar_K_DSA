@@ -1,0 +1,30 @@
+int n; cin>>n;
+
+int arr[n]; // <- declare the array by this then it is a bad practice.
+
+// i can't give the size of the array during run time if i'm storing the arr in stack memory.
+
+// but i can give the array size during run time if i'm storing arr in heap memory or
+// if i'm dynamically allocating the arr
+
+// dynamically allocated array :- allocating array in heap memory.
+
+int n; cin>>n;
+
+int *arr = new int[n];
+
+// we pass size of the arra
+// y along with the array
+
+rule :- whenver you are creating a dynamically allocated array & if you are passing this
+array as an argument then you will have to pass the size of the array also.
+
+// // funtion(int arr[], int n)
+
+// static array & dynamic array
+
+// :- static array :- size will always be fixed
+
+// dynamic array :- size is not fixed.
+
+I
