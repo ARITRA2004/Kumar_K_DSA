@@ -62,7 +62,7 @@ int main() {
 
             q.push(i);
             vis[i] = 1;
-            
+
             while(!q.empty()){
 
                 int parent_node = q.front();
@@ -72,8 +72,8 @@ int main() {
                     if(vis[it] == 0){
                         q.push(it);
                         vis[it] = 1;
-                        level[it] = level[parent_node] + 1;
-                    }            
+                        level[it] = level[parent_node] + 1; 
+                    }           
                 }
             }
         }else continue;
